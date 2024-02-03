@@ -1,3 +1,17 @@
+.navbar-brand {
+    color: #FF7A00 !important; 
+    font-weight: bold;
+}
+
+.navbar-nav {
+    align-items: center; 
+    padding-right: 1%;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FF7A00;
+}
+
 .navbar a{
     color: aliceblue;
     padding-left: 2%;
@@ -27,8 +41,21 @@
     width: 100%;
 }
 
+#contato fieldset {
+    padding: 1em;
+}
+
+#contato input {
+    margin-top: 1%;
+    border-style: double;
+    border-color: #FF7A00;
+    border-radius: 0.5em;
+}
+
+
+
 @media (max-device-width: 600px) {
     .body {
-        text-align: center; 
+        text-align: center !important; 
     }
 }
