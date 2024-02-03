@@ -1,0 +1,34 @@
+.navbar a{
+    color: aliceblue;
+    padding-left: 2%;
+}
+
+.body span {
+    color: #FF7A00;
+    font-weight: bold;
+}
+
+.body {
+    font-family: Inter, Lucida, Arial;
+    background-color: #242424;
+    color: aliceblue;
+}
+
+.body h1 {
+    font-weight: bold;
+}
+
+.body .texto-principal {
+    text-align: justify;
+    padding: 5%;
+}
+
+.body img {
+    width: 100%;
+}
+
+@media (max-device-width: 600px) {
+    .body {
+        text-align: center; 
+    }
+}
