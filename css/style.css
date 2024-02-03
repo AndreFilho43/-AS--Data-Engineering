@@ -1,3 +1,5 @@
+
+
 .navbar-brand {
     color: #FF7A00 !important; 
     font-weight: bold;
@@ -37,6 +39,17 @@
     padding: 5%;
 }
 
+.body .texto-principal img {
+    width: 25px;
+    margin: 2%;
+}
+
+.body .texto-principal hr {
+    border-width: 2px;
+    border-radius: 1%;
+    width: 40%;
+}
+
 .body img {
     width: 100%;
 }
@@ -50,12 +63,4 @@
     border-style: double;
     border-color: #FF7A00;
     border-radius: 0.5em;
-}
-
-
-
-@media (max-device-width: 600px) {
-    .body {
-        text-align: center !important; 
-    }
 }
