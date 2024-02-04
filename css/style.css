@@ -50,8 +50,23 @@
     width: 40%;
 }
 
-.body img {
+@keyframes float {
+	0% {
+		transform: translatey(0px) translateX(0px);
+	}
+	50% {
+		transform: translatey(-10px) translateX(-5px);
+	}
+	100% {
+		transform: translatey(0px) translateZ(5px);
+	}
+}
+
+.body .main-image img{
+    margin-left: 2%;
+    margin-top: 2%;
     width: 100%;
+    animation: float 6s ease-in-out infinite;
 }
 
 #contato fieldset {
