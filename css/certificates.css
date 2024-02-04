@@ -1,0 +1,22 @@
+.modal-content {
+    background-color: black;
+    width: 500px;
+}
+
+.certificacoes .card-img-top {
+    height: 200px;
+    width: auto;
+}
+
+.certificacao-titulo {
+    padding: 3%;
+}
+
+.certificacao-titulo h2{
+    color: #FF7A00;
+    font-weight: bolder;
+}
+
+.certificacoes .card {
+    width: 320px;
+}
