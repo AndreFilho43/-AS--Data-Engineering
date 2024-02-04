@@ -1,5 +1,3 @@
-
-
 .navbar-brand {
     color: #FF7A00 !important; 
     font-weight: bold;
@@ -30,6 +28,7 @@
     color: aliceblue;
 }
 
+
 .body h1 {
     font-weight: bold;
 }
@@ -48,6 +47,17 @@
     border-width: 2px;
     border-radius: 1%;
     width: 40%;
+}
+
+.body .texto-principal i span{
+    padding-left: 2%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.body .texto-principal a {
+    text-decoration: none;
+    color: aliceblue;
 }
 
 @keyframes float {
@@ -69,6 +79,14 @@
     animation: float 6s ease-in-out infinite;
 }
 
+.einstein {
+    margin-top: 3px;
+    background-position: right;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0 , 0.6)) ,url("/img/einstein.png");
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
 #contato fieldset {
     padding: 1em;
 }
@@ -79,3 +97,16 @@
     border-color: #FF7A00;
     border-radius: 0.5em;
 }
+
+.footer {
+    background-color: #242424;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    font-family: Inter, Lucida, Arial;
+    padding-top: 1%;
+}
+

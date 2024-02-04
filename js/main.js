@@ -6,4 +6,14 @@ function obrigado() {
 
 document.getElementById("envio-formulario").onclick = obrigado;
 
+window.onscroll - function() {fixarHeader()};
+var header = document.getElementById("header");
+var sticky = header.offsetTop;
 
+function fixarHeader() {
+    if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+    } else {
+        header.classList.remove("sticky");
+    }
+}
